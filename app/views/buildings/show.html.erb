@@ -1,0 +1,5 @@
+<% @building.offices.each do |office| %>
+    <h1><%= office.company.name %></h1>
+<% end %>
+<h2>Total Rent: <%= @building.total_rent %></h2>
+
